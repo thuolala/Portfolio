@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/93e6f76313.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="girl" id="girl">
+    <div class="col-6 mascot">
+      <img src="./images/girl.png" alt="Mascot" id="mascot">
+    </div>
+    <div class="col-6 speech">
+      <p style="text-align: center; margin: auto;">Hi!</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <!-- Aligns the brand to the start with no extra spacing -->
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar collapse for menu items -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add the "Contact me" button outside of the collapsed navbar items for proper alignment -->
+      <div class="d-none d-lg-block align-items-center">
+        <i class="fa-solid fa-code code-icon"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="text-align: center; margin-top: 100px; height: 100%;" id="about">
+    <img src="./images/ava.png" class="ava-img">
+
+    <div>
+      <span class="text-1">Hi, I'm Anh Thu</span>
+    </div>
+
+    <div>
+      <!-- <span class="text-2">Backend Developer <span class="text-2white"> based in Ho Chi Minh City</span> </span> -->
+      <span class="text-2">Backend Developer</span>
+    </div>
+    <div>
+      <p class="text-3">I enjoy learning new things and working
+        on projects that challenge my skills. I’m
+        patient and can spend hours finding
+        solutions to difficult problems.</p>
+    </div>
+
+    <div class="d-flex justify-content-center my-2">
+      <a href="https://www.linkedin.com/in/th%C6%B0-ph%E1%BA%A1m-hu%E1%BB%B3nh-anh-92452b172/" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/thulovesanji/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-square-facebook fa-2x"></i>
+      </a>
+      <a href="https://github.com/thuolala" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-square-github fa-2x"></i>
+      </a>
+    </div>
+
+    <div class="d-flex justify-content-center my-2">
+      <a id="contactBtn" class="btn contact-btn">Contact</a>
+      <a href="./PhamHuynhAnhThu_CV.pdf" class="btn cv-btn">Download CV</a>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="education">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Education</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+
+      <div class="d-flex justify-content-center mx-auto">
+        <div class="col-lg-6 col-sm-12">
+          <div class="card edu-card">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./images/tdt.png" class="img-fluid" alt="Card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title tdt">Ton Duc Thang University</h5>
+                  <p class="card-text edu-major">Bachelor of Computer Network & Data Communication</p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-business-time"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> 2020 - now</small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-star"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> GPA: 7.42/10</small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-location"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> District 7, Ho Chi Minh
+                      City</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="experiences">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Experiences</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+
+      <div class="d-flex justify-content-center mx-auto">
+        <div class="col-lg-6 col-sm-12">
+          <div class="card edu-card">
+            <div class="row">
+              <div class="col-md-4 justify-content-center">
+                <img src="./images/amazing.png" class="img-fluid" alt="Card image">
+              </div>
+              <div class="col-md-8 justify-content-center">
+                <div class="card-body">
+                  <h5 class="card-title tdt">Amazing Tech Company</h5>
+                  <p class="card-text edu-major">Backend .NET Developer - Intern</p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-business-time"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> May 2024 - July 2024</small>
+                  </p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-location"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> District Tan Phu, Ho Chi Minh
+                      City</small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-star"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major">
+                      Build an ASP.NET project -
+                      Employee Management System in 3 days.</small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-star"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major">
+                      Working in a backend group up to 10 members to build
+                      the required ASP.NET projects -
+                      Internship Management System in 2 months.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card edu-card" style="margin-top: 20px;">
+            <div class="row">
+              <div class="col-md-4 justify-content-center">
+                <img src="./images/scc.webp" class="img-fluid" alt="Card image">
+              </div>
+              <div class="col-md-8 justify-content-center">
+                <div class="card-body">
+                  <h5 class="card-title tdt">SCC Vietnam Company</h5>
+                  <p class="card-text edu-major">JavaScript - Intern</p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-business-time"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> October 2024 - now</small>
+                  </p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-location"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major"> District 7, Ho Chi Minh
+                      City</small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-star"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major">
+                    </small></p>
+                  <p class="card-text" style="text-align: start;"><i class="fa-solid fa-star"
+                      style="color: rgb(192, 192, 192);"></i><small class="desc-major">
+                    </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="skills">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Skills</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+
+      <div class="" style="flex-direction: column;">
+        <!-- <div class="d-flex justify-content-center">
+            <div class="bottle" id="bottle">
+              <div class="bottle-cap" id="bottleCap">
+                <div class="cap-tag"><span style="margin-left: 20px;">Programming Language</span>
+                  <div class="circle-cap"></div>
+                </div>
+              </div>
+              <div class="bottle-water"></div>
+            </div>
+
+            <div class="cup">
+              <div class="water"></div>
+              <span class="cup-text">Java</span>
+            </div>
+            <div class="cup">
+              <div class="water"></div>
+              <span class="cup-text">C#</span>
+            </div>
+            <div class="cup">
+              <div class="water"></div>
+              <span class="cup-text">Python</span>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="cake-container">
+              <div class="cake-decoration"></div>
+              <div class="cake-frosting"></div>
+              <div class="cake-layer layer-top"></div>
+              <div class="cake-layer layer-middle"></div>
+              <div class="cake-layer layer-bottom"></div>
+            </div>
+          </div> -->
+        <div class="bookshelf">
+          <!-- Compartments will be placed dynamically in grid -->
+          <div class="compartment">
+            <span class="compartment-tag">Programming Language</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">Java</span>
+            </div>
+            <div class="book">
+              <span class="book-name">C#</span>
+            </div>
+            <div class="book">
+              <span class="book-name">JavaScript</span>
+            </div>
+            <div class="book">
+              <span class="book-name">TypeScript</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Python</span>
+            </div>
+          </div>
+          <div class="compartment">
+            <span class="compartment-tag">Frameworks</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">Angular</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Spring</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Hibernate</span>
+            </div>
+            <div class="book">
+              <span class="book-name">.NET</span>
+            </div>
+          </div>
+          <div class="compartment">
+            <span class="compartment-tag">Web Development</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">HTML</span>
+            </div>
+            <div class="book">
+              <span class="book-name">CSS</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Bootstrap</span>
+            </div>
+            <div class="book">
+              <span class="book-name">TailwindCSS</span>
+            </div>
+          </div>
+          <div class="compartment">
+            <span class="compartment-tag">Databases</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">SQLServer</span>
+            </div>
+            <div class="book">
+              <span class="book-name">MySQL</span>
+            </div>
+          </div>
+          <div class="compartment">
+            <span class="compartment-tag">Others</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">OpenCV</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Figma</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Git</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Office</span>
+            </div>
+          </div>
+          <div class="compartment">
+            <span class="compartment-tag">Soft Skills</span>
+            <div class="circle-pin"></div>
+            <div class="book">
+              <span class="book-name">Teamwork</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Research</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Solving</span>
+            </div>
+            <div class="book">
+              <span class="book-name">Documents</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="certifications">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Certifications</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+
+      <div class="" style="flex-direction: column;">
+        <div class="bookshelf">
+          <!-- Compartments will be placed dynamically in grid -->
+          <div class="compartment h-auto">
+            <img src="./images/eng.jpg" class="cert-img">
+          </div>
+          <div class="compartment h-auto">
+            <img src="./images/scrum.jpg" class="cert-img">
+          </div>
+          <div class="compartment h-auto">
+            <img src="./images/js.png" class="cert-img">
+          </div>
+          <div class="compartment h-auto">
+            <img src="./images/java.png" class="cert-img">
+          </div>
+          <div class="compartment h-auto">
+            <img src="./images/angular.png" class="cert-img">
+          </div>
+          <div class="compartment h-auto">
+            <img src="./images/sql.png" class="cert-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="projects">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Projects</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="margin-top: 100px; height: 100%;"
+    id="contact">
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <h5 class="text-header">Contact me</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <span class="divide"></span>
+      </div>
+
+      <div class="col-auto copy-card" data-copy-text="phoneText">
+        <div class="card contact" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-phone card-icon"></i></h5>
+            <p class="card-text" id="phoneText">0946020824</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto copy-card" data-copy-text="mailText">
+        <div class="card contact" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-envelope card-icon"></i></h5>
+            <p class="card-text" id="mailText">phamthushame2002@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <div class="card contact" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-location card-icon"></i></h5>
+            <p class="card-text"> District 7, Ho Chi Minh City</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!-- Coppy -->
+<div id="copiedMessage" style="display:none;">Copied!</div>
+
+<!-- Back to top -->
+<button onclick="topFunction()" id="backToTopBtn" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+</html>
