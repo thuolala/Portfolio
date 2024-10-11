@@ -59,7 +59,7 @@ body {
     border: 3px solid #FFB25B;
     border-radius: 50%;
     padding: 10px;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     margin-top: -10px;
     margin-left: 5px;
     width: 55px;
@@ -93,7 +93,7 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 .nav-link {
@@ -204,7 +204,7 @@ body {
     border: 2px solid white;
     border-radius: 5px;
     background-color: transparent;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     margin: 10px 10px auto 10px;
 }
 
@@ -219,7 +219,7 @@ body {
     border: 2px solid white;
     border-radius: 5px;
     background-color: white;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     margin: 10px 10px auto 10px;
 }
 
@@ -293,7 +293,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: start;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 .desc-major {
@@ -302,11 +302,11 @@ body {
 }
 
 .card-title {
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 .edu-major {
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     text-align: start;
 }
 
@@ -487,7 +487,7 @@ body {
     /* Font size */
     text-align: center;
     /* Center text */
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 /* Styling the tag on the bottle cap */
@@ -514,7 +514,7 @@ body {
     /* Center text */
     transform: rotate(30deg);
     /* Slight tilt to the left */
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     font-size: 12px;
 }
 
@@ -662,7 +662,7 @@ body {
     text-align: center;
     width: max-content;
     /* Make sure the text is centered */
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     z-index: 10;
     transition: 0.5s ease;
 }
@@ -726,7 +726,7 @@ body {
     color: #202020;
     display: inline-block;
     transform: rotate(-90deg);
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 .compartment img {
@@ -751,11 +751,11 @@ body {
 /* CONTACT */
 .text-header {
     color: white;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
 
 .divide {
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
     height: 1px;
     width: 150px;
     background: #FFB25B;
@@ -817,5 +817,5 @@ body {
     z-index: 1000;
     opacity: 0;
     transition: opacity 0.5s ease;
-    font-family: 'Arial Black', sans-serif;
+    font-family:  'Arial Black', 'Impact', sans-serif;
 }
