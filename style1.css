@@ -611,9 +611,9 @@ body {
 /* Styling the compartments */
 .compartment {
     background: rgb(255, 255, 255);
-    background: -moz-linear-gradient(28deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
-    background: -webkit-linear-gradient(28deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
-    background: linear-gradient(28deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#acacac", GradientType=1);
     /* Lighter wood color */
     position: relative;
@@ -765,6 +765,11 @@ body {
 
 /* PROJECTS */ 
 #pj {
+    background: rgb(255, 255, 255);
+    /* background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#acacac", GradientType=1); */
     position: relative;
     transition: 0.5s ease;
 }
@@ -814,7 +819,11 @@ body {
 
 @media (max-width: 768px) {
     .pj-btn {
-        height: 25%;
+        height: 20%;
+    }
+
+    .project-compartment img{
+        margin-bottom: 15%;
     }
 }
 
