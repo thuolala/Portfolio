@@ -23,29 +23,6 @@ body {
     transition: 0.5s ease;
 }
 
-@keyframes wiggle {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    /* Start at normal position */
-    25% {
-        transform: rotate(-20deg);
-    }
-
-    /* Rotate left */
-    50% {
-        transform: rotate(20deg);
-    }
-
-    /* Rotate right */
-    100% {
-        transform: rotate(0deg);
-    }
-
-    /* Back to normal */
-}
-
 .mascot {
     transition: 0.5s ease;
     width: auto;
@@ -616,7 +593,20 @@ body {
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.553);
 }
 
-.bookshelf:hover {}
+.project-shelf {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 20px; /* Space between the items */
+    margin: 0 auto 50px auto;
+    width: 100%;
+    border: 3px solid #202020;
+    background: rgba(53, 53, 53, 0.449);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.553);
+}
 
 /* Styling the compartments */
 .compartment {
@@ -771,6 +761,61 @@ body {
 .contact:hover {
     background: rgba(53, 53, 53, 0.449);
     backdrop-filter: blur(10px);
+}
+
+/* PROJECTS */ 
+#pj {
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.project-compartment img{
+    width: 100%;
+}
+
+.pj-btn {
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: #111111e4; 
+    backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial Black', sans-serif;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.pj-btn:hover{
+    height: 100%;
+    background: linear-gradient(90deg, #ffb25b81, #e6589a81);
+    backdrop-filter: blur(10px);
+}
+
+.pj-text{
+    display: none;
+    text-align: center;
+}
+
+.pj-btn:hover .pj-text{
+    display: block;
+}
+
+.pj-btn:hover .pj-icon{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .pj-btn {
+        height: 25%;
+    }
 }
 
 /* BACK TO TOP */

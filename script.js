@@ -43,6 +43,46 @@ contactBtn.addEventListener('click', function (e) {
     });
 });
 
+// Drag 
+// Variables to track the initial position and mouse movement
+// let isDragging = false;
+// let offsetX = 0;
+// let offsetY = 0;
+
+// // Function to handle mouse down event
+// mascot.addEventListener('mousedown', (e) => {
+//     isDragging = true;
+
+//     // Calculate the offset between the mouse pointer and the top-left corner of the mascot
+//     offsetX = e.clientX - mascot.getBoundingClientRect().left;
+//     offsetY = e.clientY - mascot.getBoundingClientRect().top;
+
+//     // Add mousemove and mouseup event listeners when dragging starts
+//     document.addEventListener('mousemove', onMouseMove);
+//     document.addEventListener('mouseup', onMouseUp);
+// });
+
+// // Function to handle mouse movement during dragging
+// function onMouseMove(e) {
+//     if (isDragging) {
+//         // Calculate the new position of the mascot
+//         const newX = e.clientX - offsetX;
+//         const newY = e.clientY - offsetY;
+
+//         // Set the new position using transform
+//         mascot.style.transform = `translate(${newX}px, ${newY}px)`;
+//     }
+// }
+
+// // Function to handle when the mouse button is released (dragging stops)
+// function onMouseUp() {
+//     isDragging = false;
+
+//     // Remove the mousemove and mouseup event listeners when dragging stops
+//     document.removeEventListener('mousemove', onMouseMove);
+//     document.removeEventListener('mouseup', onMouseUp);
+// }
+
 // Back to top 
 // Get the button:
 var backToTopBtn = document.getElementById("backToTopBtn");
@@ -139,6 +179,14 @@ books.forEach(book => {
         // const randomAngle = Math.floor(Math.random() * 21) - 10; // Random angle between -10 and 10 degrees
         // book.style.transform = `rotate(${randomAngle}deg)`;
         book.style.transform = `rotate(${0}deg)`;
+    });
+});
+
+//
+const projectCompartments = document.querySelectorAll('.project-compartment');
+projectCompartments.forEach(project => {
+    project.addEventListener('click', function () {
+        project.style.transform = `rotate(${0}deg)`;
     });
 });
 
