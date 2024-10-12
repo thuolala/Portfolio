@@ -823,9 +823,22 @@ body {
 .pj-text{
     display: none;
     text-align: center;
+    text-decoration: underline;
+}
+
+.pj-text-desc{
+    display: none;
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+    font-weight: lighter; 
+    width: 50%;
 }
 
 .pj-btn:hover .pj-text{
+    display: block;
+}
+
+.pj-btn:hover .pj-text-desc{
     display: block;
 }
 
@@ -841,6 +854,16 @@ body {
     .project-compartment img{
         margin-bottom: 15%;
     }
+
+    .pj-text-desc{
+        width: auto;
+        font-size: smaller;
+    }
+
+    .pj-text{
+        display: none;
+    }
+    
 }
 
 /* BACK TO TOP */
