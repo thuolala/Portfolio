@@ -167,6 +167,14 @@ body {
     margin: 10px auto auto auto;
 }
 
+.text-4 {
+    background: linear-gradient(90deg, #FFB25B, #E6589A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .fa-brands {
     color: white;
     margin: 10px;

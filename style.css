@@ -168,6 +168,12 @@ body {
     font-size: 1.5rem;
 }
 
+.text-4 {
+    background: linear-gradient(90deg, rgba(144, 253, 45, 1), rgba(34, 193, 195, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .text-2white {
     background: white;
     -webkit-background-clip: text;
