@@ -921,3 +921,21 @@ body {
     font-family:  'Arial Black', 'Impact', sans-serif;
     font-weight: bold;
 }
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+    line-height: 0.5;
+}
+
+.footer-text {
+    text-align: center;
+    color: #cecece;
+}
+
+.footer-text:hover {
+    color: white;
+}
